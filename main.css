@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    padding: 16px 0;
+    background-color:black;
+    color: whitesmoke;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+
+}
+header nav li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+header.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
