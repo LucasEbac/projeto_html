@@ -4,29 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <link rel="stylesheet" href="./main.css2"/>
-
+    <link rel="stylesheet" href="./main.js">
 <body>
     <header>
 <div class="container">
     <h1>EBAC banking</h1>
     <h2>Depositos</h2>
     <nav>
-    <form>
+    <form id="form-deposito">
     <ul>
-    <input type="text" placeholder="Nome completo"/>
+    <input type="text" id="nome-beneficiario"required placeholder="Nome completo"/>
     </br>
-    <input type="number" placeholder="numero da conta"/>
+    <input type="number" id="numero-conta" required placeholder="numero da conta"/>
 </br>
-    <input type="number" placeholder="valor"/>
+    <input type="number" id="valor-deposito" requerid placeholder="valor"/>
 </br>
-    <textarea placeholder="Descrição"></textarea>
+    <textarea placeholder="Descrição" id="Descrição"></textarea>
 </br>
-    <button type="submit"> Depositar</button>
+    <button id="btn-depositar" type="submit"> Depositar</button>
 </nav>
 </ul>
 </header>
 </form>
 </div>
+<script src="./main.js"></script>
 </body>
 </html>
